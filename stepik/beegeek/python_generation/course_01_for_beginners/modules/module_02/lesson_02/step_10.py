@@ -6,6 +6,7 @@ def lucky_sequence_2() -> tuple[int, int, int, int, int, int]:
     """
     Notes:
         Функция возвращает счастливую последовательность из сериала LOST;
+
     Returns:
         tuple[int]: Кортеж с числами.
     """

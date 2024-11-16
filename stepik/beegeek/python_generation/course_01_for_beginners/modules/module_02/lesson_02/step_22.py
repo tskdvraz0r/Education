@@ -7,8 +7,10 @@ def favorite_team(team_name: str) -> str:
     Notes:
         Функция принимает на вход строку с наименованием команды и возвращает фразу:
         f"{team_name} - чемпион!".
+
     Args:
         team_name (str): Наименование команды.
+
     Returns:
         (str): Строка: f"{team_name} - чемпион!".
     """
