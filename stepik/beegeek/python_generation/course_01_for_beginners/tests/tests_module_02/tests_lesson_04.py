@@ -3,15 +3,15 @@
 """
 import pytest
 
-from stepik.beegeek.python_generation.course_01_for_beginners.modules.module_02.lesson_04.step_06 import three_consecutive_numbers
-from stepik.beegeek.python_generation.course_01_for_beginners.modules.module_02.lesson_04.step_07 import sum_of_three_numbers
-from stepik.beegeek.python_generation.course_01_for_beginners.modules.module_02.lesson_04.step_08 import cube
-from stepik.beegeek.python_generation.course_01_for_beginners.modules.module_02.lesson_04.step_09 import function_value
-from stepik.beegeek.python_generation.course_01_for_beginners.modules.module_02.lesson_04.step_10 import next_and_prev_numbers
-from stepik.beegeek.python_generation.course_01_for_beginners.modules.module_02.lesson_04.step_11 import purchase_price
-from stepik.beegeek.python_generation.course_01_for_beginners.modules.module_02.lesson_04.step_12 import arithmetics_operations
-from stepik.beegeek.python_generation.course_01_for_beginners.modules.module_02.lesson_04.step_13 import arithmetic_progression
-from stepik.beegeek.python_generation.course_01_for_beginners.modules.module_02.lesson_04.step_14 import divide_and_conquer
+from modules.module_02.lesson_04.step_07 import sum_of_three_numbers
+from modules.module_02.lesson_04.step_08 import cube
+from modules.module_02.lesson_04.step_09 import function_value
+from modules.module_02.lesson_04.step_10 import next_and_prev_numbers
+from modules.module_02.lesson_04.step_06 import three_consecutive_numbers
+from modules.module_02.lesson_04.step_11 import purchase_price
+from modules.module_02.lesson_04.step_12 import arithmetics_operations
+from modules.module_02.lesson_04.step_13 import arithmetic_progression
+from modules.module_02.lesson_04.step_14 import divide_and_conquer
 
 
 @pytest.mark.parametrize(
