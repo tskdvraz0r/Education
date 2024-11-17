@@ -3,12 +3,9 @@
 """
 import pytest
 
-from stepik.beegeek.python_generation.course_01_for_beginners.modules.module_02.lesson_03.step_12 import \
-    i_like_python
-from stepik.beegeek.python_generation.course_01_for_beginners.modules.module_02.lesson_03.step_13 import \
-    greetings
-from stepik.beegeek.python_generation.course_01_for_beginners.modules.module_02.lesson_03.step_14 import \
-    custom_sep
+from modules.module_02.lesson_03.step_12 import i_like_python
+from modules.module_02.lesson_03.step_13 import greetings
+from modules.module_02.lesson_03.step_14 import custom_sep
 
 
 @pytest.mark.parametrize(
@@ -50,4 +47,3 @@ def test_good_case_custom_sep(
         expected_result
 ) -> None:
     assert custom_sep(test_sep, *test_strings) == expected_result
-
