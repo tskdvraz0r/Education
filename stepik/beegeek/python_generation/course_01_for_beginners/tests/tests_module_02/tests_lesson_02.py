@@ -1,25 +1,16 @@
 """
 Тесты функций из урока 2 модуля 2;
 """
-
 import pytest
 
-from stepik.beegeek.python_generation.course_01_for_beginners.modules.module_02.lesson_02.step_08 import \
-    hello_world
-from stepik.beegeek.python_generation.course_01_for_beginners.modules.module_02.lesson_02.step_09 import \
-    lucky_sequence_1
-from stepik.beegeek.python_generation.course_01_for_beginners.modules.module_02.lesson_02.step_10 import \
-    lucky_sequence_2
-from stepik.beegeek.python_generation.course_01_for_beginners.modules.module_02.lesson_02.step_11 import \
-    star_triangle
-from stepik.beegeek.python_generation.course_01_for_beginners.modules.module_02.lesson_02.step_21 import \
-    greetings
-from stepik.beegeek.python_generation.course_01_for_beginners.modules.module_02.lesson_02.step_22 import \
-    favorite_team
-from stepik.beegeek.python_generation.course_01_for_beginners.modules.module_02.lesson_02.step_23 import \
-    repeat_after_me
-from stepik.beegeek.python_generation.course_01_for_beginners.modules.module_02.lesson_02.step_24 import \
-    repeat_after_me_2
+from modules.module_02.lesson_02.step_08 import hello_world
+from modules.module_02.lesson_02.step_09 import lucky_sequence_1
+from modules.module_02.lesson_02.step_10 import lucky_sequence_2
+from modules.module_02.lesson_02.step_11 import star_triangle
+from modules.module_02.lesson_02.step_21 import greetings
+from modules.module_02.lesson_02.step_22 import favorite_team
+from modules.module_02.lesson_02.step_23 import repeat_after_me
+from modules.module_02.lesson_02.step_24 import repeat_after_me_2
 
 
 @pytest.mark.parametrize(
