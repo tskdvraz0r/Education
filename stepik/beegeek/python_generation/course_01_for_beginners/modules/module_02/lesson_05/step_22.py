@@ -3,7 +3,7 @@
 """
 import itertools as itt
 
-def digit_permutations(number: int) -> list[int, ...]:
+def digit_permutations(number: int) -> list[int]:
     """
     Notes:
         Функция принимает целое число и возвращает все варианты перестановок его цифр.

@@ -23,7 +23,7 @@ if __name__ == "__main__":
     next_num, prev_num = next_and_prev_numbers(number=num)
 
     print(
-            f"Следующее за числом {num} число: {next_num}",
-            f"Для числа {num} предыдущее число: {prev_num}",
-            sep="\n"
+        f"Следующее за числом {num} число: {next_num}",
+        f"Для числа {num} предыдущее число: {prev_num}",
+        sep="\n"
     )

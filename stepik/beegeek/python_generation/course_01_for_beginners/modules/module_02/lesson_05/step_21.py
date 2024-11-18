@@ -24,7 +24,7 @@ def threedigit_number(number: int) -> tuple[int, int]:
 if __name__ == "__main__":
     sum_of_digits, prod_of_digits = threedigit_number(number=123)
     print(
-            f"Сумма цифр = {sum_of_digits}",
-            f"Произведение цифр = {prod_of_digits}",
-            sep="\n"
+        f"Сумма цифр = {sum_of_digits}",
+        f"Произведение цифр = {prod_of_digits}",
+        sep="\n"
     )
