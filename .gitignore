@@ -1,6 +1,9 @@
 # Файлы;
 *.pyc
+*.json
 
 
 
 # Папки;
+.venv/
+.vscode/
