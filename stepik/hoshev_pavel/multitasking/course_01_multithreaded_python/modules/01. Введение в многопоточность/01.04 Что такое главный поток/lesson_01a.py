@@ -1,25 +1,24 @@
 """
 19.11.2924
 """
+
 import sys
-import time
 import threading as thr
+import time
 
 from loguru import logger
 
-
 # loguru
 logger.remove()
-logger.add(
-    sink=sys.stderr,
-    level="DEBUG"
-)
+logger.add(sink=sys.stderr, level="DEBUG")
+
 
 # Локальные функции;
 def worker() -> None:
     logger.debug("Начало работы демон-потока;")
     time.sleep(2)
     logger.debug("Завершение работы демон-потока;")
+
 
 # Создание потока;
 thread: thr.Thread = thr.Thread(target=worker)

@@ -1,6 +1,7 @@
 """
 19.11.2024
 """
+
 import sys
 import threading as thr
 
@@ -8,10 +9,7 @@ from loguru import logger
 
 # loguru
 logger.remove()
-logger.add(
-    sink=sys.stderr,
-    level="DEBUG"
-)
+logger.add(sink=sys.stderr, level="DEBUG")
 
 # Получить объект главного потока;
 main_thread: thr.Thread = thr.main_thread()

@@ -1,19 +1,17 @@
 """
 19.11.2024
 """
+
 import sys
-import time
 import threading as thr
+import time
 
 from loguru import logger
 
-
 # loguru
 logger.remove()
-logger.add(
-    sink=sys.stderr,
-    level="DEBUG"
-)
+logger.add(sink=sys.stderr, level="DEBUG")
+
 
 # Локальные функции;
 def worker() -> None:
@@ -21,11 +19,9 @@ def worker() -> None:
     time.sleep(2)
     logger.debug("Завершение работы демон-потока;")
 
+
 # Создание потока и установка аргумента daemon=True;
-thread: thr.Thread = thr.Thread(
-    target=worker,
-    daemon=True
-)
+thread: thr.Thread = thr.Thread(target=worker, daemon=True)
 
 # Запуск потока;
 thread.start()
