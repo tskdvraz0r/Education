@@ -5,5 +5,7 @@
 
 
 # Папки;
+.pytest_cache/
+.trunk/
 .venv/
 .vscode/
